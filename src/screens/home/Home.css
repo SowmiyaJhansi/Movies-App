@@ -1,0 +1,12 @@
+.Upcoming Movies{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.flex-container, .left{
+    margin: 16px;
+    width: 76% 24%;
+    height: 350;
+}
