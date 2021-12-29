@@ -10,3 +10,13 @@
     width: 76% 24%;
     height: 350;
 }
+
+.findMovies{
+    margin: 'theme.spacing.unit';
+    min-width: 240;
+    max-width: 240;
+}
+
+h1{
+    color:'theme.palette.primary.light';
+}
