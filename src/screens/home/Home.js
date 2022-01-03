@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// eslint-disable-next-line no-unused-vars
+
 function SingleLineImageList() {
   const classes = useStyles();
 
