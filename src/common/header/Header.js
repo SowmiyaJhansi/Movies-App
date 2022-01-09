@@ -19,21 +19,21 @@ import { useEffect, useState } from "react";
 import Button from '@material-ui/core/Button';
 
 function Header() {
-  const login = "I am fixed :)";
-  const register = "I am not a fixed header :(";
-  const [login, setHeaderText] = useState(whenNotFixed);
+  const Login = "I am fixed :)";
+  const Register = "I am not a fixed header :(";
+  const [Login, setLogin] = useState(whenNotFixed);
   useEffect(() => {
     const header = document.getElementById("myHeader");
     const sticky = header.offsetTop;
     const scrollCallBack = window.addEventListener("scroll", () => {
       if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
-        if (login !== register) {
+        if (Login !== Register) {
           setHeaderText(fixedText);
         }
       } else {
         header.classList.remove("sticky");
-        if (login !== whenNotFixed) {
+        if (Login !== whenNotFixed) {
           setHeaderText(whenNotFixed);
         }
       }
