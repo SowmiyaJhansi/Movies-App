@@ -21,7 +21,7 @@ import Button from '@material-ui/core/Button';
 function Header() {
   const Login = "I am fixed :)";
   const Register = "I am not a fixed header :(";
-  const [Login, setLogin] = useState(whenNotFixed);
+  const (Login, setLogin) = useState(whenNotFixed);
   useEffect(() => {
     const header = document.getElementById("myHeader");
     const sticky = header.offsetTop;
